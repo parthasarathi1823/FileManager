@@ -61,7 +61,3 @@ else :
     organize_files(dir)
 
 
-
-
-organize_files(dir)
-
