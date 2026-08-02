@@ -20,6 +20,13 @@ def organize_files(source_folder:str):
         "Text":[".txt"],
         "Json":[".json"],
         "csv":[".csv"],
+        "HTML":[".html"],
+        "PYTHON":[".py"],
+        "C":[".c"],
+        "JAVA":[".java", ".class"],
+        "JUPYTER NOTEBOOK":[".ipynb"],
+        "BATCH FILE":[".bat"],
+        "SQL":[".sql"]
     }
 
     for file in source_path.rglob("*"):
